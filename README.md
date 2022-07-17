@@ -10,7 +10,7 @@ pensadas, planejadas e desenvolvidas por **Victor Elisiario**.
 2. Muitas pessoas não aceitam instalar um app para usar apenas algumas vezes (Pegar um ônibus)
   
 **Tecnologias / bibliotecas / linguagens utilizadas:**  
-ReactJS | NextJS | Typescript | ChakraUI | Firebase | FaunaDB
+ReactJS | NextJS | Typescript | ChakraUI | Firebase | FaunaDB | Axios
 
 **Email:** victor@elisiario.dev
 
