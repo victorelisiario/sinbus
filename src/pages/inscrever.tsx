@@ -1,5 +1,4 @@
-import { useAuth } from "../context/AuthContext";
-import { SubmitHandler, useForm, useFormState } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 import { Flex, FormControl, Icon, Stack, useMediaQuery, useToast } from "@chakra-ui/react";
 
@@ -8,8 +7,6 @@ import { UnderlineInput } from "../components/Inputs/UnderlineInput";
 import { SinbusButton } from "../components/Buttons/SinbusButton";
 import { useRouter } from "next/router";
 import { TransparentButton } from "../components/Buttons/TransparentButton";
-import { api } from "../services/axios";
-import { IoIosCheckmarkCircle } from "react-icons/io";
 
 type InscreverFormData = {
   name: string;
